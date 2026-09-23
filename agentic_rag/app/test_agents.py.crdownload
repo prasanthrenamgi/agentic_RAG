@@ -1,0 +1,35 @@
+from agents.code_agent import CodeAgent
+from agents.math_agent import MathAgent
+from agents.hr_agent import HRAgent
+
+
+code_agent = CodeAgent()
+math_agent = MathAgent()
+hr_agent = HRAgent()
+
+
+print("\n--- CODE AGENT ---")
+
+print(
+    code_agent.answer(
+        "Write a Python function to reverse a list."
+    )
+)
+
+
+print("\n--- MATH AGENT ---")
+
+print(
+    math_agent.answer(
+        "What is the time complexity of binary search?"
+    )
+)
+
+
+print("\n--- HR AGENT ---")
+
+print(
+    hr_agent.answer(
+        "What happens during employee onboarding?"
+    )
+)

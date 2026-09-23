@@ -1,0 +1,23 @@
+from rag.retriever import Retriever
+documents = [
+    "Python supports lists and dictionaries.",
+    "A list is an ordered and mutable collection.",
+    "A dictionary stores data in key-value pairs.",
+    "Binary search works on sorted arrays.",
+    "Binary search repeatedly divides the search space.",
+    "Binary search has O(log n) time complexity."
+]
+
+
+retriever = Retriever(documents)
+
+
+query = "Explain binary search"
+
+results = retriever.search(query, k=3)
+print("\nQuery:", query)
+
+print("\nRetrieved documents:")
+
+for result in results:
+    print("-", result)
