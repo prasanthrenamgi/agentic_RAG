@@ -2,10 +2,7 @@
 
 **An AI-powered system combining semantic search, Retrieval-Augmented Generation (RAG), and specialized LLM agents for code assistance, mathematical explanations, and HR-related queries.**
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
-[![Hugging Face](https://img.shields.io/badge/LLM-Sm olLM2-orange)](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct)
-[![FAISS](https://img.shields.io/badge/Vector_Search-FAISS-green)](https://github.com/facebookresearch/faiss)
-[![Sentence Transformers](https://img.shields.io/badge/Embeddings-Sentence_Transformers-yellow)](https://www.sbert.net/)
+[![Hugging Face](https://img.shields.io/badge/LLM-SmolLM2-orange)](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct)
 
 ## 📌 Overview
 
